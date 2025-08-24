@@ -94,3 +94,9 @@ From inside `alx-rick-and-morty-app`:
 
 ```bash
 npm run dev
+
+## ErrorProneComponent (Test)
+
+- Added `components/ErrorProneComponent.tsx` which intentionally throws an error.
+- Used inside `pages/index.tsx` wrapped with `ErrorBoundary`.
+- When visiting the homepage, you should see:
