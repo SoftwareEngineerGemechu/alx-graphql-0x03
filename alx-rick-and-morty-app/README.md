@@ -73,3 +73,24 @@ npm run dev
 ```bash
 npm install
 npm run dev
+
+# alx-graphql-0x03
+
+## ErrorBoundary Integration
+
+- Added `ErrorBoundary` in `components/ErrorBoundary.tsx`.
+- Wrapped all pages inside `pages/_app.tsx` with `ErrorBoundary` to catch runtime errors.
+
+### Run the project
+
+```bash
+npm install
+npm run dev
+
+---
+
+## ✅ Step 4: Run the App
+From inside `alx-rick-and-morty-app`:
+
+```bash
+npm run dev
